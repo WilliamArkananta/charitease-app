@@ -11,10 +11,10 @@ function CTAButton({ children }: CTAButtonProps) {
 
   return (
     <button
-      onMouseEnter={(e) => {
+      onMouseEnter={() => {
         setIsHovered(true);
       }}
-      onMouseLeave={(e) => {
+      onMouseLeave={() => {
         setIsHovered(false);
       }}
       onClick={() => {
